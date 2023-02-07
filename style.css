@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+.calcu {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50vw;
+    height: 90vh;
+}
+.calcu-head {
+    height: 70px;
+    width: 100%;
+    padding:20px 0 0 20px;
+    border-bottom: 2px solid rgb(82, 81, 81);
+}
+.calcu-head h1 {
+    color: #03A9F4;
+}
+.con {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.inputs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+.result label {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.inputs label {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #0288D1;
+}
+.inputs input {
+    height: 30px;
+    width: 200px;
+    border: 2px solid #03A9F4;
+    padding: 10px;
+    font-size: 1rem;
+}
+.inputs button {
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    font-weight: 700;
+    color: rgb(27, 27, 27);
+    border: 2px solid #03A9F4;
+    border-radius: 20px;
+    background-color: #03A9F4;
+}
+.inputs button:hover {
+    border: 2px solid #03A9F4;
+    color: #03A9F4;
+    background-color: #fff;
+    transform: translateY(2px);
+}
